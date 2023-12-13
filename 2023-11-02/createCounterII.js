@@ -23,4 +23,5 @@ counter.increment(); // 6
 counter.increment(); // 7
 counter.reset(); // 5
 counter.decrement(); // 6
+// 释放资源
 counter = null;
