@@ -1,2 +1,6 @@
-// console.log(new Error("Not Equal"));
-Error("111");
+for (let i = 0; i < 10; i++) {
+  let arr = {};
+  arr[i] ||= [];
+  arr[i].push(i);
+  console.log(arr);
+}
